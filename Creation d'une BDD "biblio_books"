@@ -1,0 +1,56 @@
+Creation d'une BDD "biblio_books"
+
+
+
+- Table : livres
+
+Champs:
+
+id_livre
+titre
+auteur
+couverture
+description
+prix
+type (enum)
+
+
+
+
+Formulaire "Ajouter un livre" + enregistrement en BDD 
+- Controle des données
+
+titre : obligatoire
+auteur : obligatoire
+couverture : obligatoire, moins de 1Mo, extension jpg, png
+prix : decimal
+type : obligatoire (roman, tragedie, bd)
+
+
+
+Afficher la liste des livres
+
+- titre clicable
+- description (aperçu 40 premiers caractères) 
+- image si existante, sinon image par défaut
+
+
+
+
+Affichage d'un livre 
+
+
+- description (aperçu 40 premiers caractères) 
+- image si existante, sinon image par défaut
+- prix
+- type
+
+
+
+BONUS
+
+Afficher la liste des livres (uniquement des roman ou bd ou tragedie)
+
+- titre clicable
+- description (aperçu 40 premiers caractères) 
+- image si existante, sinon image par défaut
